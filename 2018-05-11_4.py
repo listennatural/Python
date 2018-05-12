@@ -12,6 +12,6 @@ while True:
     if x == 1 or x == x:
         break
 
-print(x if x != result[0] else result[0], '= ', end='')
+print(x, '= ', end='')
 for i in range(len(result)):
     print(result[i], end=' * ' if i + 1 != len(result) else '')
